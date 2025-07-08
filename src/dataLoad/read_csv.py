@@ -42,8 +42,7 @@ def LoadCSVToDataFrame(prefix: str = "filename_a_1_") -> pd.DataFrame:
 
     return combined_df
 
-"""
+
 BureauDataFrame1 = LoadCSVToDataFrame("train_credit_bureau_a_1_*")
 print(BureauDataFrame1.head())
-"""
 
