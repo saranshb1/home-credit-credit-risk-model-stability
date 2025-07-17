@@ -30,6 +30,9 @@ def nullPercentage(df: pd.DataFrame, sort: bool = True, ascending: bool = False)
 
     Returns:
         pd.DataFrame: A DataFrame with columns 'column', 'nullCount', and 'nullPercent'.
+
+    Note:
+        Ensure to mention how this function works and which arguments are required.
     """
 
     totalRows = len(df)
