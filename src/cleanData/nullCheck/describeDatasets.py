@@ -25,14 +25,14 @@ def describeDataFrame(reader_function, *args, **kwargs):
     print("\n📊 Basic Statistics:")
     print(df.describe(include='all').transpose())
 
-    print("\n🧼 Null Value Summary:")
+    """print("\n🧼 Null Value Summary:")
     nullSummary = df.isnull().sum()
     nullPercent = (nullSummary / len(df)) * 100
     print(pd.DataFrame({
         'null_count': nullSummary,
         'null_percent': nullPercent
     }).sort_values(by='null_percent', ascending=False))
-
+    """
     return df  # Optional return
 
 
