@@ -8,3 +8,5 @@ Although this is a delayed submission, if one will, the objective is to create a
 which would include every aspect, from data identification, cleaning, engineering to modelling and validation.
 
 -- I can be reached on saranshbh19@gmail.com for further discussions. --
+
+make run in your command prompt to run the project end to end. (needs to be updated)

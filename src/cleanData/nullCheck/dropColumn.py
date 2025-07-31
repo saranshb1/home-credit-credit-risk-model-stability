@@ -20,3 +20,5 @@ def drop_columns_by_name(df, *args, **kwargs):
     """
     columns_to_drop = list(args)
     return df.drop(columns=columns_to_drop, errors='ignore', **kwargs)
+
+
