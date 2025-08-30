@@ -11,7 +11,6 @@ import os
 #print(df1.describe())
 
 
-
 def LoadCSVToDataFrame(prefix: str = "filename_a_1_") -> pd.DataFrame:
     """
     Load multiple CSV files with a specific prefix from a fixed folder
